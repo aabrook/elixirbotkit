@@ -27,7 +27,7 @@ defmodule ElixirBotKit.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    [{:slack, "~>0.7.0"}, {:meck, "~> 0.8.4", only: :test}]
+    [{:slack, "~>0.7.0"}, {:meck, "~> 0.8.4", only: :test},{:ex_doc, ">= 0.0.0", only: :dev}]
   end
   defp package do
     [
